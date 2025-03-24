@@ -56,3 +56,6 @@ function playAudio() {
   const audioElement = document.getElementById("audio")
   audioElement.play()
 }
+function openResume() {
+  window.open('path/to/your/resume.pdf', '_blank');
+}
