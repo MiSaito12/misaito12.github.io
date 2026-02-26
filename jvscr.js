@@ -57,5 +57,5 @@ function playAudio() {
   audioElement.play()
 }
 function openResume() {
-  window.open('path/to/your/resume.pdf', '_blank');
+  window.open("resume/resume dec 8.pdf", '_blank');
 }

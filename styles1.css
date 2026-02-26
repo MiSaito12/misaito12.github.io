@@ -22,6 +22,12 @@ h4 {
     font-size: 30px;
     color: #6b9132;
 }
+h6 {
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: #6b9132;
+}
 header {
     text-align: center;
     
@@ -37,6 +43,7 @@ body {
     background-color: #6b9132;
     height: 28px;
     align-items: center;
+    align-items: center;
     padding-left: 0;
     margin-bottom: 0.3%;
     margin-top: 0;
@@ -48,7 +55,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 30px;
-    width: 25%;
+    width: 33.33%;
     background-color: #6b9132;
     color: #f7f6d4;
 }
@@ -58,7 +65,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 26px;
-    width: 25%;
+    width: 33.33%;
     background-color: #f7f6d4;
     color: #6b9132;
     border-color: #6b9132;
@@ -233,19 +240,25 @@ th {
     flex-wrap: nowrap;
     text-align: center;
     font-size: 16px;
-    border: #45a049;
+    border-left: #45a049;
+    border-right: #45a049;
+    border-top: 0px;
+    border-bottom: 0px;
     border-style: dashed;
 }
 .aboutCtn {
     display: flex;
     width: 100%;
     overflow: none;
+    flex-direction: row;
 }
 .aboutPhoto {
     display: flex;
     width: 30%;
     float: left;
+    align-self: center;
     padding-left: 5%;
+    margin: 5%;
 }
 .bio {
     display: flex;
@@ -253,23 +266,47 @@ th {
     padding-right: 5%;
     overflow:none;
     font-size: 18px;
+    flex-direction: column;
 }
 .bioTxt {
     display: flex;
     width: 80%;
+    border-bottom: #c84d2b;
+    border-top: #f7f6d4;
+    border-left: #f7f6d4;
+    border-right: #f7f6d4;
+    border-style: dashed;
+    padding: 15px;
 }
 .rsmCntr {
     display: flex;
     padding: 20px;
 }
+#resumeBtn {
+    background-color: #6b9132;
+    border: none;
+    text-align: center;
+    align-items: center;
+    font-size: 16px;
+    text-decoration: none;
+    color: #f7f6d4;
+    padding: 15px 32px;
+    margin: 4px 2px;
+    align-self: center;
+    
+}
+.resumeBtn {
+    align-items: center;
+}
 
 .download-button {
-    background-color: #4CAF50; /* Green background */
+    background-color: #6b2254; /* Green background */
     border: none;
-    color: white; /* White text */
+    color: #f7f6d4; /* White text */
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     display: inline-flex; /* Make the button inline-flex to align icon and text */
     align-items: center; /* Center align icon and text vertically */
     font-size: 16px;
@@ -283,5 +320,5 @@ th {
 }
 
 .download-button:hover {
-    background-color: #45a049; /* Darker green on hover */
+    background-color: #9ec663; /* ighter green on hover */
 }
